@@ -1,0 +1,2527 @@
+[
+  {
+      "id": 1,
+      "title": "Bounty Submission Mystery",
+      "description": "Someone just submitted the phrase \"bounty plz \"to your bug bounty program. They've also attached a digest of that phrase signed by keys held in one of your HSMs."
+  },
+  {
+      "id": 2,
+      "title": "Supply Chain Malware",
+      "description": "Most of your CI/CD pipeline has broken after a dependency was detected as malware."
+  },
+  {
+      "id": 3,
+      "title": "Pipeline Failure",
+      "description": "Most of your CI/CD pipelines suddenly break."
+  },
+  {
+      "id": 4,
+      "title": "Insider Bribery",
+      "description": "Your remote support employees have been successfully bribed."
+  },
+  {
+      "id": 5,
+      "title": "Holiday Data Exfiltration",
+      "description": "Billing alerts for outbound data transfer have started going off in object storage where your backup databases are stored. Happy Thanksgiving"
+  },
+  {
+      "id": 6,
+      "title": "Browser Extension Exploit",
+      "description": "Security vendor blogs that uBlock is being exploited in the wild. Active attacker is siphoning session cookies from corporate webmail apps."
+  },
+  {
+      "id": 7,
+      "title": "Memory Leak Discovery",
+      "description": "Infrastructure between your front end web servers and clients begin leaking memory sporadically. External researcher discovers / discloses."
+  },
+  {
+      "id": 8,
+      "title": "Network ACL Misconfiguration",
+      "description": "A bug in your infrastructure deployment pipeline has resulted in a 0.0.0.0/0 \"network ACL on high risk production hosts."
+  },
+  {
+      "id": 9,
+      "title": "Certificate Algorithm Deprecation",
+      "description": "The cryptographic hashing algorithm used in your www certificate has been deprecated."
+  },
+  {
+      "id": 10,
+      "title": "Rails Server Backdoor",
+      "description": "(This is not real) Public Advisory: Backdoor code in Rails Server (Puma) 3.6.2 and onward. Remote access IOC is a malicious HTTP header."
+  },
+  {
+      "id": 11,
+      "title": "HR Data Mishandling",
+      "description": "Employees sends sensitive HR information to his wife's personal email to format it."
+  },
+  {
+      "id": 12,
+      "title": "Session Cookie Vulnerability",
+      "description": "A web app vuln allows attackers to generate an authenticated session cookie for any user. You don't know if it was exploited yet."
+  },
+  {
+      "id": 13,
+      "title": "Botnet Credential Leak",
+      "description": "A partner security team shares seized data from a prolific keylogging botnet with you. Millions of email/password tuples, incl. employees."
+  },
+  {
+      "id": 14,
+      "title": "CEO Harassment Investigation",
+      "description": "The CEO abruptly asks your team to preserve and document harassing chat messages taking place over a year ago between two employees."
+  },
+  {
+      "id": 15,
+      "title": "S3 Bucket Deletion",
+      "description": "a junior employee had a logic error in their bash script and accidentally recursively deleted all your AWS S3 buckets"
+  },
+  {
+      "id": 16,
+      "title": "Competitor Proposal Theft",
+      "description": "A competitor has submitted a functionally identical proposal to one you've submitted that is only dollar under yours. The potential client, confused, asks if this is some kind of joke. They never shared your proposal, nor have you."
+  },
+  {
+      "id": 17,
+      "title": "Remote Product Weaponization",
+      "description": "A military has found a way to blow up a product you sell, remotely. Pagers Explode Across Lebanon in Apparent Attack on Hezbollah"
+  },
+  {
+      "id": 18,
+      "title": "Executive Social Media Crisis",
+      "description": "An executive of yours has suddenly decided to correct people who are wrong on the internet. The wrong people very quickly start paying attention to your executive, who was not previously in the public eye."
+  },
+  {
+      "id": 19,
+      "title": "Labor Day Intrusion",
+      "description": "An incident has just been declared after evidence of an intrusion was discovered. All relevant on-calls have been paged. Happy Labor Day"
+  },
+  {
+      "id": 20,
+      "title": "G-Suite Account Takeover",
+      "description": "An unknown threat actor had gained access to the Company's Google G-Suite account and changed passwords of all users of the Company's G-Suite products (GMail, GDrive, G-Suite, etc), thereby denying access to all users."
+  },
+  {
+      "id": 21,
+      "title": "TCP/IP Stack Exploit",
+      "description": "An adversary has sent a specially crafted packet designed to exploit a vulnerable tcp/ip stack in a server you've exposed to the internet."
+  },
+  {
+      "id": 22,
+      "title": "Recovery Key Inaccessibility",
+      "description": "Recovery keys necessary to recover from an outage are inaccessible due to the same outage."
+  },
+  {
+      "id": 23,
+      "title": "Control Plane Outage",
+      "description": "The management control plane you would normally use to respond to an outage is down because of the outage"
+  },
+  {
+      "id": 24,
+      "title": "Customer Support Overload",
+      "description": "Nearly all customers are reaching out simultaneously after your product has triggered an outage."
+  },
+  {
+      "id": 25,
+      "title": "EDR System Crashes",
+      "description": "All systems running a particular EDR are crashing."
+  },
+  {
+      "id": 26,
+      "title": "Cellular Records Leak",
+      "description": "All of your corporate cellular call and text records are leaked publicly."
+  },
+  {
+      "id": 27,
+      "title": "Data Warehouse Breach",
+      "description": "Your hosted data warehouse has notified you of a breach."
+  },
+  {
+      "id": 28,
+      "title": "Cloud Account Deletion",
+      "description": "Your cloud provider has deleted one of your accounts."
+  },
+  {
+      "id": 29,
+      "title": "Cloud Provider Misconfiguration",
+      "description": "new one for @badthingsdaily: one of the top three cloud providers has a misconfiguration and deletes your entire account by accident and can't recover it."
+  },
+  {
+      "id": 30,
+      "title": "eSignature Vendor Breach",
+      "description": "Your eSignature vendor has announced a breach. All contracts have been exposed to an unknown adversary."
+  },
+  {
+      "id": 31,
+      "title": "Ransomware Without Note",
+      "description": "A ransomware gang has listed your company as a victim. They forgot to leave a ransom note, making negotiation or payment impossible."
+  },
+  {
+      "id": 32,
+      "title": "Unknown Root Cause",
+      "description": "Your response efforts have produced *no root cause* for a data breach that you are obligated to disclose."
+  },
+  {
+      "id": 33,
+      "title": "Datacenter Fire",
+      "description": "A huge fire has erupted at a datacenter you rely on."
+  },
+  {
+      "id": 34,
+      "title": "Binary Code Mismatch",
+      "description": "A production engineer investigating a poorly performant binary has discovered that it is executing code that isn't possible in its associated source."
+  },
+  {
+      "id": 35,
+      "title": "SSH Server Vulnerability",
+      "description": "An upstream attack on an operating system dependency has made your remotely accessible SSH servers vulnerable to malicious access / code execution."
+  },
+  {
+      "id": 36,
+      "title": "AI Hallucinated Dependency",
+      "description": "A developer's AI assistant has hallucinated an upstream dependency into their code that an adversary is squatting on."
+  },
+  {
+      "id": 37,
+      "title": "Honey Token Theft",
+      "description": "A threat actor has stolen funds from a BTC honey token wallet left on infrastructure as a detection tactic. After investigation, it turns out your infrastructure holding the token was not compromised. Rather, the security engineer was compromised while created the token."
+  },
+  {
+      "id": 38,
+      "title": "Logging Platform Breach",
+      "description": "Your cloud hosted logging platform has been compromised."
+  },
+  {
+      "id": 39,
+      "title": "SSO Service Breach",
+      "description": "Your SSO service has announced a breach."
+  },
+  {
+      "id": 40,
+      "title": "Stolen SSO Session",
+      "description": "An active SSO session has been stolen from an engineer with production access."
+  },
+  {
+      "id": 41,
+      "title": "Identity Stack Compromise",
+      "description": "Your entire enterprise identity stack is compromised."
+  },
+  {
+      "id": 42,
+      "title": "Core Dump Exfiltration",
+      "description": "A core dump containing secret keys has been exfiltrated from an engineering laptop."
+  },
+  {
+      "id": 43,
+      "title": "Domain Squatting AI",
+      "description": "A startup has bought a domain associated with your brand without your permission and run your content through an AI engine, linking to their company"
+  },
+  {
+      "id": 44,
+      "title": "SSO API Key Breach",
+      "description": "API keys from your SSO provider have been breached."
+  },
+  {
+      "id": 45,
+      "title": "Physical Security Bypass",
+      "description": "An adversary has just entered your office by triggering an access motion sensor with a balloon."
+  },
+  {
+      "id": 46,
+      "title": "Classified Document Leak",
+      "description": "Classified documents are being distributed publicly from your servers."
+  },
+  {
+      "id": 47,
+      "title": "Bank Transfer Authority",
+      "description": "In the process of switching banks to avoid a bank run, finance realizes a former employee has the signature authority for bank transfers."
+  },
+  {
+      "id": 48,
+      "title": "Ghost Employee Access",
+      "description": "Due to transitional chaos from a layoff, a few employees were onboarded and given access to internal systems but not fully brought into any organization in particular."
+  },
+  {
+      "id": 49,
+      "title": "Encryption Key Theft",
+      "description": "Your production encryption at rest \"keys have been exfiltrated by an adversary."
+  },
+  {
+      "id": 50,
+      "title": "Active Production Intrusion",
+      "description": "Malicious access credentials have just been generated during an active production intrusion."
+  },
+  {
+      "id": 51,
+      "title": "Engineer Laptop Malware",
+      "description": "Malware has landed on an engineer's laptop who can grant production access."
+  },
+  {
+      "id": 52,
+      "title": "Classified Upload Alert",
+      "description": "You have received notification that a classified document uploaded by an elected politician resides on your servers."
+  },
+  {
+      "id": 53,
+      "title": "Whistleblower Discovery",
+      "description": "An insider investigation has stumbled upon a whistleblower gathering documents to submit to a regulator."
+  },
+  {
+      "id": 54,
+      "title": "Password Vault Brute Force",
+      "description": "An adversary is starting a localized brute force attack against the master password of your recently stolen password vault file."
+  },
+  {
+      "id": 55,
+      "title": "Customer Data Breach",
+      "description": "A group of hackers have managed to infiltrate your organization's network and gain access to sensitive customer information, such as credit card numbers and personal details."
+  },
+  {
+      "id": 56,
+      "title": "Insider Data Theft",
+      "description": "A disgruntled employee at your company has decided to take revenge on their employer by stealing sensitive data and leaking it to a competitor."
+  },
+  {
+      "id": 57,
+      "title": "Unrotated Credential Exploit",
+      "description": "An exfiltrated credential that was not rotated after being compromised in your last incident was just exploited today."
+  },
+  {
+      "id": 58,
+      "title": "Compliance Training Loss",
+      "description": "All records that verify completion of annual compliance training courses have been lost. Employee asks Wait, does this mean we have to take all of these again???\""
+  },
+  {
+      "id": 59,
+      "title": "Ban List Reset",
+      "description": "All previously banned accounts, domains, IoCs, networks, emails, hosts, or device identifiers are now allowed on your platform due to a recent policy change made by leadership."
+  },
+  {
+      "id": 60,
+      "title": "Internal Threat Directive",
+      "description": "Leadership has asked your team to treat half the company as a potential insider threat."
+  },
+  {
+      "id": 61,
+      "title": "CEO Privilege Request",
+      "description": "Your CEO is asking leadership for attorney privileged material related to the CEOs litigation against the company when they were not CEO. Happy Halloween"
+  },
+  {
+      "id": 62,
+      "title": "Dumpster Diving Secret",
+      "description": "A dumpster diver has discovered an embedded secret in disposed source code print-outs."
+  },
+  {
+      "id": 63,
+      "title": "Ransomware Credential Share",
+      "description": "An employee has shared credentials with a ransomware group via their anonymous paste site"
+  },
+  {
+      "id": 64,
+      "title": "Anonymous Paste Credentials",
+      "description": "TTX: An employee shares credentials with a ransomware group via their anonymous paste site"
+  },
+  {
+      "id": 65,
+      "title": "Customer Notification Hijack",
+      "description": "An offensive message has been sent over a widespread customer notification channel with your branding."
+  },
+  {
+      "id": 66,
+      "title": "Natural Disaster Secret",
+      "description": "A natural disaster is occurring nearby a storage location that holds a Shamir's share of a secret."
+  },
+  {
+      "id": 67,
+      "title": "Security Product Outage",
+      "description": "An endpoint security product is suffering an outage can only be mitigated by disabling the security product."
+  },
+  {
+      "id": 68,
+      "title": "Unauthorized VPN Access",
+      "description": "An unauthorized device just authenticated successfully to your VPN."
+  },
+  {
+      "id": 69,
+      "title": "MFA Fatigue Attack",
+      "description": "An employee is repeatedly receiving MFA push notifications."
+  },
+  {
+      "id": 70,
+      "title": "EDR Compromise",
+      "description": "An adversary has gained access to your EDR product."
+  },
+  {
+      "id": 71,
+      "title": "Secrets Platform Breach",
+      "description": "An adversary has read all values on your secrets management platform."
+  },
+  {
+      "id": 72,
+      "title": "Unplanned Secret Rotation",
+      "description": "A production secret just rotated, but it was unplanned and no employee was involved. Enjoy your weekend"
+  },
+  {
+      "id": 73,
+      "title": "Taxi DoS Attack",
+      "description": "All roads around your HQ are clogged with taxis."
+  },
+  {
+      "id": 74,
+      "title": "Password Manager Logging",
+      "description": "An adversary with access to backend logs at a hosted password manager has discovered unintentional plaintext logging of master passwords where usernames were expected to be submitted."
+  },
+  {
+      "id": 75,
+      "title": "Web Exploit Credential Dump",
+      "description": "An web based exploit has dumped credentials from the integrated password manager of a heavily privileged SRE."
+  },
+  {
+      "id": 76,
+      "title": "Password Manager Update",
+      "description": "A malicious update has been delivered to users of a password manager product."
+  },
+  {
+      "id": 77,
+      "title": "Mass Password Reset",
+      "description": "An above normal number of customers are claiming that their account passwords were reset, and they did not initiate the process."
+  },
+  {
+      "id": 78,
+      "title": "Password Reset Hijack",
+      "description": "Emails delivered from your customer password reset flow can be initiated and intercepted by an adversary."
+  },
+  {
+      "id": 79,
+      "title": "Email Provider Compromise",
+      "description": "The administrative account for your hosted email delivery provider has been compromised."
+  },
+  {
+      "id": 80,
+      "title": "Physical Safe Breach",
+      "description": "They even broke into your safe!"
+  },
+  {
+      "id": 81,
+      "title": "Password Hash Exposure",
+      "description": "Your application is exposing customer password hashes."
+  },
+  {
+      "id": 82,
+      "title": "Error Monitoring Breach",
+      "description": "Your error monitoring tooling for client telemetry has announced a breach."
+  },
+  {
+      "id": 83,
+      "title": "Error Platform Admin Compromise",
+      "description": "An adversary has compromised the administrative account for your client error monitoring platform."
+  },
+  {
+      "id": 84,
+      "title": "Client Secret Logging",
+      "description": "Error logging forwards secrets intended to be stored only on clients."
+  },
+  {
+      "id": 85,
+      "title": "Sentry Configuration Leak",
+      "description": "The Slope Wallet for iOS and Android uses Sentry for event logging. Any interaction in the app would trigger an event log. Unfortunately, Slope didn't configure Sentry to scrub sensitive info. Thus, mnemonics were leaked to Sentry"
+  },
+  {
+      "id": 86,
+      "title": "Employee Data Profiting",
+      "description": "A customer has escalated their suspicion that an employee at your company has accessed their data with an intent to profit from it."
+  },
+  {
+      "id": 87,
+      "title": "IAM Policy Typo",
+      "description": "A tipo is introduced, committed, and deployed into configuration while updating an IAM policy."
+  },
+  {
+      "id": 88,
+      "title": "Political Spam Campaign",
+      "description": "Your customers received unsolicited spam from a political candidate over the weekend. Messages were delivered to plus addresses including your brand. (...+yourbrand@gmail.com)"
+  },
+  {
+      "id": 89,
+      "title": "Digital Signature Bypass",
+      "description": "An adversary has bypassed a digital signature check by exploiting a signature verification bug."
+  },
+  {
+      "id": 90,
+      "title": "OAuth Token Chain Breach",
+      "description": "A company you depend on that stores OAuth tokens with access to another company you depend on has disclosed a breach involving those tokens."
+  },
+  {
+      "id": 91,
+      "title": "Build Pipeline Breach",
+      "description": "A company responsible for a critical part of your build pipeline has informed you of a breach before the weekend. They are recommending a credential rotation and review of logs for malicious access."
+  },
+  {
+      "id": 92,
+      "title": "OAuth Integration Leak",
+      "description": "A company you support OAuth integration with has just disclosed that the tokens you store with them have leaked."
+  },
+  {
+      "id": 93,
+      "title": "Marketing During Outage",
+      "description": "A growth marketing campaign has encouraged customers to sign up for a product that is currently experiencing a sustained outage."
+  },
+  {
+      "id": 94,
+      "title": "Protest Code Injection",
+      "description": "Malicious code has been committed to an open source library to protest a current event. You depend on this code."
+  },
+  {
+      "id": 95,
+      "title": "Newsletter Subscriber Attack",
+      "description": "Subscribers to your newsletters are reporting targeted attacks towards the emails they subscribed with."
+  },
+  {
+      "id": 96,
+      "title": "Crypto Holder Targeting",
+      "description": "An insider at your company plans to use their data access to target cryptocurrency holders."
+  },
+  {
+      "id": 97,
+      "title": "DKIM Phishing Campaign",
+      "description": "Fully DKIM'd phishes have been sent to customers in your marketing lists. Delivery path is your marketing email tool. Enjoy your weekend."
+  },
+  {
+      "id": 98,
+      "title": "Silent Alert System",
+      "description": "Your on-call is super pumped because they haven't seen any incoming alerts for a while."
+  },
+  {
+      "id": 99,
+      "title": "April Fools Logic Bomb",
+      "description": "A logic bomb in a front end dependency has finally executed, rendering an April fools gag. Your customers believe it's official."
+  },
+  {
+      "id": 100,
+      "title": "Email Forwarding Attack",
+      "description": "An adversary adds a malicious forwarding address after accessing an employee's email."
+  },
+  {
+      "id": 101,
+      "title": "Infected Host Activity",
+      "description": "An infected host on your network is running searches on Bing."
+  },
+  {
+      "id": 103,
+      "title": "Undersea Cable Outage",
+      "description": "News reports of near simultaneous outages at multiple undersea cable landing sites."
+  },
+  {
+      "id": 104,
+      "title": "Disgruntled Maintainer",
+      "description": "The disgruntled maintainer of a dependency you rely on has bricked their code."
+  },
+  {
+      "id": 105,
+      "title": "Social Media Exit",
+      "description": "The employee managing your social media accounts has decided to exit the organization in style."
+  },
+  {
+      "id": 106,
+      "title": "Unexpected Log4j Patches",
+      "description": "The vulnerable log4j cases in your environment have been patched... ...to you and your team's surprise."
+  },
+  {
+      "id": 107,
+      "title": "Log4j Detection Startup",
+      "description": "The engineers using the log4j exploit as an intrusion detection method now have $10M in funding and are scooping up documents before they quit."
+  },
+  {
+      "id": 108,
+      "title": "Log Pipeline Interception",
+      "description": "The investigation reveals a malicious actor intercepting your log pipeline that, coincidentally, was vulnerable to the exploit."
+  },
+  {
+      "id": 109,
+      "title": "Unknown System Callbacks",
+      "description": "A researcher poking for log4j exposures in your product has found callbacks coming from systems you don't recognize and can't identify."
+  },
+  {
+      "id": 110,
+      "title": "JNDI Lateral Movement",
+      "description": "A compromised endpoint on your network is starting to spew jdni:// URIs at any service and application it can find, intending to move laterally."
+  },
+  {
+      "id": 111,
+      "title": "Username Exploit Chain",
+      "description": "An influencer on your platform has changed their username to a string that exploits your logging infrastructure, beaconing out of your network. Within a few minutes... so do a few hundred other users."
+  },
+  {
+      "id": 112,
+      "title": "IaaS Account Takeover",
+      "description": "A falsely notarized identity verification form has been faxed to your IaaS platform, requesting that account ownership be transferred to another email address."
+  },
+  {
+      "id": 113,
+      "title": "AWS Account Control",
+      "description": "On AWS, there is a process involving faxing a notarized document for gaining control of an account lost in this way... and also functions as nightmare fuel for the possibility of account take-over."
+  },
+  {
+      "id": 114,
+      "title": "Cloud Email Lockout",
+      "description": "The administrator account to your organization's cloud email is no longer accessible. The recovery email belongs to a former employee on a custom domain running on a personal email server."
+  },
+  {
+      "id": 115,
+      "title": "Extortion During Incident",
+      "description": "An unknown adversary involved in your ongoing incident is extorting your company. Simultaneously, a whistleblower is leaking response details about your ongoing incident to the press."
+  },
+  {
+      "id": 116,
+      "title": "Massive Credential Dump",
+      "description": "A new credential dump with tens of millions of fresh credentials is recently available via torrent. Peer security teams in online retail are reporting a 10-40% hit rate on their platforms. (Good luck tomorrow!)"
+  },
+  {
+      "id": 117,
+      "title": "Network Route Exposure",
+      "description": "Previously unrouteable hosts on your network are now routable from the public internet."
+  },
+  {
+      "id": 118,
+      "title": "Red Team Zero Day",
+      "description": "A red team has delivered a vendor 0day during an engagement on your network. They have communicated no plans to disclose details to the vendor involved. An mNDA complicates direct disclosure of IP leveraged by the red team."
+  },
+  {
+      "id": 119,
+      "title": "Remote Access Bribery",
+      "description": "An adversary has asked an employee in your customer service organization to install remote access software. They are compensated afterward. AT&T employees took bribes to plant malware on the company's network"
+  },
+  {
+      "id": 120,
+      "title": "Debugger Inception",
+      "description": "A security engineer on your team is investigating a compromised debugger with their compromised debugger."
+  },
+  {
+      "id": 121,
+      "title": "Cascading Outages",
+      "description": "Further outages are spreading across the country."
+  },
+  {
+      "id": 122,
+      "title": "Bay Area Internet Outage",
+      "description": "The internet has gone out for the entire Bay Area."
+  },
+  {
+      "id": 123,
+      "title": "Frontend PII Leak",
+      "description": "Your application is leaking PII through front-end code to users."
+  },
+  {
+      "id": 124,
+      "title": "Circular Lock Dependency",
+      "description": "The networking gear involved in an outage is access controlled by locks that are dependent on the network gear that is involved in the outage that is access controlled by locks that are dependent on network gear that is involved in the outage that is access controlled by the..."
+  },
+  {
+      "id": 125,
+      "title": "Frontend Dependency Acquisition",
+      "description": "A frontend dependency served on your primary domain was acquired and led to an unintended outcome."
+  },
+  {
+      "id": 126,
+      "title": "Endpoint Management Rebellion",
+      "description": "A growing number of your engineers are removing endpoint management and transfering enterprise certificates to their own devices."
+  },
+  {
+      "id": 127,
+      "title": "Admin Account Search",
+      "description": "A compromised endpoint searches your support tools for all customer accounts with admin access."
+  },
+  {
+      "id": 128,
+      "title": "Device Repair Shop Risk",
+      "description": "An employee has taken their device to a local repair shop instead of your help desk. All credentials needed for access are provided."
+  },
+  {
+      "id": 129,
+      "title": "Chat Session Purchase",
+      "description": "An employee's active session to your enterprise chat was just purchased by an adversary."
+  },
+  {
+      "id": 130,
+      "title": "Customer Config Chaos",
+      "description": "A specific customer has made a valid configuration change causing 85% of your production systems to report errors."
+  },
+  {
+      "id": 131,
+      "title": "Law Enforcement Breach Alert",
+      "description": "Law enforcement has reached out to notify you of a breach. They include specific information about your database table structure. However, no incident has been declared yet."
+  },
+  {
+      "id": 132,
+      "title": "Flash Card IP Leak",
+      "description": "Confidential IP has leaked across self learning flash card \"software."
+  },
+  {
+      "id": 133,
+      "title": "Supply Chain Disruption",
+      "description": "Your supply chain has been interrupted with no end in sight."
+  },
+  {
+      "id": 134,
+      "title": "Security Camera Breach",
+      "description": "Video feeds are exposed through a breach of your managed security camera vendor."
+  },
+  {
+      "id": 135,
+      "title": "Domain Expiration",
+      "description": "Your primary domain name is now registered to someone else. ...because it expired."
+  },
+  {
+      "id": 136,
+      "title": "Viral Meme Demand",
+      "description": "A small set of objects in your data (a product, user, customer, company, etc) are being referenced 5000% more that regular volume as a result of sudden demand generated from a meme."
+  },
+  {
+      "id": 137,
+      "title": "Domain Registration Theft",
+      "description": "Your primary domain name is now registered to someone else."
+  },
+  {
+      "id": 138,
+      "title": "Sudo Privilege Escalation",
+      "description": "A previously stuck adversary has just privesc'd with a vulnerability in sudo and continued their intrusion."
+  },
+  {
+      "id": 139,
+      "title": "Executive DM Violation",
+      "description": "A social media company has shut down your high profile executive's account for a policy violation that occurred in DMs."
+  },
+  {
+      "id": 140,
+      "title": "Weekend Hardware Theft",
+      "description": "Break in over the weekend. Most of the visible and valuable hardware from your vantage point has been stolen. Unless locked. Happy Monday."
+  },
+  {
+      "id": 141,
+      "title": "Branch Office Robbery",
+      "description": "Branch office broken into last night. Multiple stolen workstations."
+  },
+  {
+      "id": 142,
+      "title": "Safe Theft",
+      "description": "Do you keep things in a safe? Your entire safe was just stolen. Enjoy your holidays"
+  },
+  {
+      "id": 143,
+      "title": "IT Stock Theft",
+      "description": "The IT area where you stock or image new employee laptops was subject to an overnight robbery. All devices accessible with 1. 15min of thieving tools 2. Fit into two duffel bags were taken."
+  },
+  {
+      "id": 144,
+      "title": "Timeserver Attack",
+      "description": "A coordinated intrusion has succeeded against many of the internet's most widely used standard timeservers. Systems worldwide have begin synchronizing to a malicious broadcast of: 2020-01-0"
+  },
+  {
+      "id": 145,
+      "title": "DUO Key Exposure",
+      "description": "Your DUO integration key has been exposed to an on-network adversary."
+  },
+  {
+      "id": 146,
+      "title": "Vendor Update Backdoor",
+      "description": "A vendor your IT admins depend on has a very sophisticated software update waiting for them."
+  },
+  {
+      "id": 147,
+      "title": "Hardware Implant Discovery",
+      "description": "A forensics expert has produced long-suspected implanted hardware found in datacenters everywhere and published detailed analysis of its capabilities. Platform tech companies disclose breaches in droves and indictments are unsealed in law enforcement press releases."
+  },
+  {
+      "id": 148,
+      "title": "Satellite Collision Cascade",
+      "description": "A low earth orbit collision results in cascading satellite outages. GPS first to go down."
+  },
+  {
+      "id": 149,
+      "title": "LEO Collision Risk",
+      "description": "We are monitoring a very high risk conjunction between two large defunct objects in LEO. Multiple data points show miss distance <25m and Pc between 1% and 20%. Combined mass of both objects is ~2,800kg."
+  },
+  {
+      "id": 150,
+      "title": "Truth Stranger Than Fiction",
+      "description": "Truth is stranger than fiction, but it is because fiction is obliged to stick to possibilities; Truth isn't."
+  },
+  {
+      "id": 151,
+      "title": "Colocation Traffic Drop",
+      "description": "All traffic to a colocation facility has started dropping."
+  },
+  {
+      "id": 152,
+      "title": "Colo Fire",
+      "description": "well SHIT my colo just burned down"
+  },
+  {
+      "id": 153,
+      "title": "MDM Abandonment",
+      "description": "The company managing your MDM has unenrolled your endpoint agents and walked away. Managed FileVault keys are now inaccessible."
+  },
+  {
+      "id": 154,
+      "title": "Industry Twitter Hack",
+      "description": "The Twitter accounts for all of the largest companies and personalities in your industry have all simultaneously pumped up a credential stealing phishing link."
+  },
+  {
+      "id": 155,
+      "title": "CEO Phone Malware",
+      "description": "A malformed multimedia message has executed arbitrary code inside a chat application on your CEO's phone on behalf of a remote"
+  },
+  {
+      "id": 156,
+      "title": "Celebrity Security Assistant",
+      "description": "Matthew McConaghey has just become an official professor at UT, and we want to make sure he stays cyber safe. You've been hired as his personal cybersecurity assistant"
+  },
+  {
+      "id": 157,
+      "title": "Web Linter Breach",
+      "description": "A web based linter for a markup language was just breached. The markup language is frequently used for config files. Any configs copy/pasted and linted from your network will have credentials scraped between now and when the site operators are informed in 6mo."
+  },
+  {
+      "id": 158,
+      "title": "Legacy Acquisition Ghost",
+      "description": "Legacy infrastructure from an long forgotten acquisition has been exploited. There are no employees from the acquisition still with the company. It responds to ping, it works completely, you just can't figure out where in the company it is."
+  },
+  {
+      "id": 159,
+      "title": "CI/CD Secret Leak",
+      "description": "Your CI/CD servers are compromised. All environment variables and secrets involved in your build have leaked to an attacker."
+  },
+  {
+      "id": 160,
+      "title": "Documentation Generator Backdoor",
+      "description": "The documentation generator in your build environment was compromised upstream. It grabs secrets accessible to your build environment, and stores them in a hidden file in your public /docs directory, waiting to be published. Attacker discovers victims with Google searches."
+  },
+  {
+      "id": 161,
+      "title": "Astronaut ATO",
+      "description": "Your investigation into a customer ATO complaint suggests that an active duty astronaut was involved with the attack."
+  },
+  {
+      "id": 162,
+      "title": "Breach Product Pitch",
+      "description": "One of your executives has just pitched their data breach product because you should assume your data was already breached from when their data breach product was breached."
+  },
+  {
+      "id": 163,
+      "title": "Assume Compromise Reality",
+      "description": "Another reinforcement of the reality that to assume your PII is already compromised is to conquer."
+  },
+  {
+      "id": 164,
+      "title": "Music Security Documentation",
+      "description": "An employee has just found that music's infinite variability appears in a currently onboarded vendor's security documentation where data security is described."
+  },
+  {
+      "id": 165,
+      "title": "Master Key Loss",
+      "description": "A master access key owned by your facilities or physical security org has been lost. Master keys for O'Hare Airport security access were lost, costing city in 'five figures'"
+  },
+  {
+      "id": 166,
+      "title": "Docker Hub Compromise",
+      "description": "A Blackhat talk has revealed a popular Docker image compromised via the maintainer. Your base image exfiltrates AWS metadata, ENV, API keys."
+  },
+  {
+      "id": 167,
+      "title": "Docker Credential Exposure",
+      "description": "You discover that someone's Docker Hub credentials on your team have been exposed."
+  },
+  {
+      "id": 168,
+      "title": "Court Reporter Theft",
+      "description": "A court reporting company has just contacted your legal team. A bag containing footage was taken from the back seat of a videographer's car while grabbing coffee. They believe it contained footage from a deposition your employees testified in."
+  },
+  {
+      "id": 169,
+      "title": "Overseas Device Seizure",
+      "description": "A Sr Eng was detained and work laptop was seized while traveling overseas. They had to decrypt the drive to be released."
+  },
+  {
+      "id": 170,
+      "title": "CFO Airport Detention",
+      "description": "Your CFO was detained at the airport while overseas. Away from hardware / luggage. Questioned about role in company."
+  },
+  {
+      "id": 171,
+      "title": "Everything's Fine",
+      "description": "Everything's fine."
+  },
+  {
+      "id": 172,
+      "title": "Password Logging Bug",
+      "description": "A script has been logging exported variables containing full user registration objects. This logging method is full of plaintext passwords."
+  },
+  {
+      "id": 173,
+      "title": "Platform Certificate Revocation",
+      "description": "Platform certificates granted for internal product development have been revoked as a result of a policy violation."
+  },
+  {
+      "id": 174,
+      "title": "Furloughed Employee Abuse",
+      "description": "Furloughed employee with financial risk has begun abusing internal access to payment processing systems."
+  },
+  {
+      "id": 175,
+      "title": "CAPTCHA Bypass",
+      "description": "An attacker is compromising your product CAPTCHAs. CAPTCHA is no longer an effective bottleneck in any rate limiting strategy you've deployed."
+  },
+  {
+      "id": 176,
+      "title": "Typo Package Attack",
+      "description": "Happy new year. A developer has just typo'd an upstream package installation to their laptop. There was a malicious package waiting for that typo. The post-installation code is exfiltrating environment variables and full directories with .git folders from that shell."
+  },
+  {
+      "id": 177,
+      "title": "Trial Deposit Barrage",
+      "description": "Your primary corporate bank account has received a barrage of trial deposits in the last two days, according to your finance team."
+  },
+  {
+      "id": 178,
+      "title": "Executive Typo Malware",
+      "description": "An executive in your organization has tweeted a high visibility statement with grammatical errors. They've unintentionally rendered a hyperlink with an obscure TLD. A http://bad.actor has registered the domain and is hosting malware."
+  },
+  {
+      "id": 179,
+      "title": "Cyber Monday Address Theft",
+      "description": "A slack, to you: eng: so about like 5% of our current purchases or so all modified their default shipping address to the same rando address recently and we've got tons of customer complaints about missed stuff \"you: \"when did these change \"eng: \"the day before cyber monday"
+  },
+  {
+      "id": 180,
+      "title": "Demo Reveals Old Breach",
+      "description": "A sales demo for a security product has led to the discovery of a 2014 breach at your company."
+  },
+  {
+      "id": 181,
+      "title": "Package Typo C2",
+      "description": "An engineer has typo'd a package they are adding to a product repository. It is malicious. The CI/CD and prod environment variables accessible to the build are exfiltrated to a C&C. Attack starts in 2 weeks with any usable credentials."
+  },
+  {
+      "id": 182,
+      "title": "Repository Maintainer Request",
+      "description": "Someone has emailed you, and asked to become a maintainer of your popular GH repository."
+  },
+  {
+      "id": 183,
+      "title": "Reputation Data Outage",
+      "description": "Any IP or domain reputation data delivered or consumed by a production system is either down, or failing open for the next ten hours. In an unrelated incident, your oncall pager workflow is also suffering an outage for the same timeframe."
+  },
+  {
+      "id": 184,
+      "title": "Twitch Stream Secret",
+      "description": "A growing number of your engineers are streaming themselves on Twitch while coding. One of them just revealed a production secret while alt-tabbing. The chat is now being spammed with a production IaaS secret from your repository."
+  },
+  {
+      "id": 185,
+      "title": "AWS Phishing Success",
+      "description": "AWS phishing email resembling a cloudwatch alarm has just been sent to one of your engineers engineer with privileged IAM credentials. They've entered credentials. If allowed, attacker immediately hits CreateAccessKey, will come back in a week to use them."
+  },
+  {
+      "id": 186,
+      "title": "Marketing Email Chaos",
+      "description": "Marketing has mistakenly sent a customer email. Nonsensical text has been sent to all customers. Large influx of customers asking if you are hacked. Record breaking week of unsubscribed engagement emails."
+  },
+  {
+      "id": 187,
+      "title": "Benefits Provider Breach",
+      "description": "The vendor that handles benefits for your organization has been social engineered. The tricked employee has emailed an attached file including the PII / SSN# of your employees and their dependents to an unknown party."
+  },
+  {
+      "id": 188,
+      "title": "Domain Suspension",
+      "description": "Your domain registrar has suspended your primary domain. It is not immediately responsive to basic support inquiries."
+  },
+  {
+      "id": 189,
+      "title": "Activist SMS Hijack",
+      "description": "An employee activist within your organization has taken advantage of the crisis SMS notification service purchased by your physical security team. They have sent a text to all employees with political content. HR must field complaints from ~%4 of total employees as a result."
+  },
+  {
+      "id": 190,
+      "title": "Debug Mode Exposure",
+      "description": "An engineer has left an internet facing web app in debug mode following a maintenance window. Errors now display environment variables, including any secrets stored in them."
+  },
+  {
+      "id": 191,
+      "title": "Crypto Opinion Doxxing",
+      "description": "A person sitting nearby you has expressed a divisive opinion about cryptocurrency on social media. Elsewhere, in a rage of disagreement, someone is now searching for their personal email addresses, and checking credential dumps for a match."
+  },
+  {
+      "id": 192,
+      "title": "Shodan Struts Discovery",
+      "description": "Shodan results show CVE-2018-11776 on several instances of Struts within your ASN."
+  },
+  {
+      "id": 193,
+      "title": "Red Team Media Alert",
+      "description": "A security company has externally discovered and reported your red team exercise. It is described as a sophisticated attack to a cable news station and law enforcement."
+  },
+  {
+      "id": 194,
+      "title": "Vendor Ransomware Impact",
+      "description": "A vendor your shipments rely on has gone offline due to a sustained ransomware incident. Vendor verbally forecasts a week or more of downtime. They cannot answer questions about shipping status because those systems are offline too."
+  },
+  {
+      "id": 195,
+      "title": "Conference Cancellation Hoax",
+      "description": "A misinformation campaign on social media has tricked your employees into thinking an industry conference has been cancelled."
+  },
+  {
+      "id": 196,
+      "title": "Building Wall Loss",
+      "description": "The wind has taken an entire wall off one of your buildings. Property normally under lock and key is exposed."
+  },
+  {
+      "id": 197,
+      "title": "GitHub Dependency Breach",
+      "description": "An open source dependency in your build pipeline has had their github account breached, with significant modifications to source. Customer security teams demanding conference calls, citing that you reference this dependency in your product documentation."
+  },
+  {
+      "id": 198,
+      "title": "Blockchain Acquisition Risk",
+      "description": "Your company plans to acquire a business that stores customer funds on a blockchain. CTO wants to migrate their application to your infrastructure."
+  },
+  {
+      "id": 199,
+      "title": "Password Reset Snooping",
+      "description": "An employee has snooped into co-worker accounts after a botched password reset. 'Jeopardy!' winner faces five years in prison for snooping emails"
+  },
+  {
+      "id": 200,
+      "title": "Shadow IT Discovery",
+      "description": "You've discovered shadow IT \"employee use of a SaaS product. After visiting the company's Twitter account, you see this:"
+  },
+  {
+      "id": 201,
+      "title": "Employee Harassment Claims",
+      "description": "An employee is harassing others on social media. They claim Views are my own and don't reflect the views of my employer \"on their account."
+  },
+  {
+      "id": 202,
+      "title": "Description",
+      "description": "Scenario"
+  },
+  {
+      "id": 203,
+      "title": "Embargoed But Not",
+      "description": "Probably this, except worse, and embargoed, except not really"
+  },
+  {
+      "id": 204,
+      "title": "PGP Parser DoS",
+      "description": "A DoS attack is discovered in most systems that parse pgp ascii armor."
+  },
+  {
+      "id": 205,
+      "title": "Mail Forwarding Fraud",
+      "description": "The post office has processed a change of address form. Corporate HQ addressed mail shipped towards a P.O.# in another state."
+  },
+  {
+      "id": 206,
+      "title": "Browser Extension Trading",
+      "description": "A malicious browser extension is modifying the rendered values of stocks on financial websites. When an active day trader is infected, it additionally swaps ticker values to penny stocks and increases quantity of the trade."
+  },
+  {
+      "id": 207,
+      "title": "Cloud Instance Seizure",
+      "description": "Law enforcement has notified you that hosts underlying two of your compute instances were seized from your cloud infra two months ago without your assistance / notification."
+  },
+  {
+      "id": 208,
+      "title": "Background Check Error",
+      "description": "Background check provider regrets that due to software error, all reports from past year were missing criminal history."
+  },
+  {
+      "id": 209,
+      "title": "Source Code Exposure",
+      "description": "Due to a botched CI/CD script, complete source code exposure on production."
+  },
+  {
+      "id": 210,
+      "title": "Infrastructure Card Lock",
+      "description": "The credit card you use to pay for infra SaaS dependencies was just locked down, due to unrelated fraud."
+  },
+  {
+      "id": 211,
+      "title": "Laptop Donation Risk",
+      "description": "Someone made a decision to donate used employee laptops and server HDD's. They've been pulling them before they are wiped (should such a process even exist)."
+  },
+  {
+      "id": 212,
+      "title": "HR Email Typo",
+      "description": "HR typo'd a new employee's email. All onboarding process is going to an unknown email address."
+  },
+  {
+      "id": 213,
+      "title": "Personal NPM Vandalism",
+      "description": "Your build imports from an employee's personal NPM package. They quit, and vandalize the package, causing a public incident. Your largest customer demands an external audit of all open source code being used as a result."
+  },
+  {
+      "id": 214,
+      "title": "Email List Purchase",
+      "description": "A new marketing employee purchased an email list from a spammer. Your next email campaign contains address honeypots. Massive blacklisting occurs and delivery rates plummet for all email that share MX with marketing."
+  },
+  {
+      "id": 215,
+      "title": "Fake CEO Keynote",
+      "description": "Your CEO is giving a last minute, surprise keynote at your preferred industry conference. Except it's not your CEO, it's one of @theyesmen."
+  },
+  {
+      "id": 216,
+      "title": "Fake Layoff Screenshot",
+      "description": "A hacked employee account has posted a fake screenshot of a layoff announcement. Tags the press."
+  },
+  {
+      "id": 217,
+      "title": "International ISP Block",
+      "description": "Your infrastructure is now unreachable to international customers. Foreign ISP's block entire AWS CIDR's in a censorship campaign that you also operate within."
+  },
+  {
+      "id": 218,
+      "title": "Fire Alarm Theft",
+      "description": "Somebody pulled the fire alarm. Upon returning to desks, employees report personal theft equivalent to a full year of normal reports in just that afternoon, mostly of various devices."
+  },
+  {
+      "id": 219,
+      "title": "Trade Secret Offer",
+      "description": "Your CEO has received an unsolicited offer to buy trade secrets on a competitor. The seller has proven possession of competition's intellectual property."
+  },
+  {
+      "id": 220,
+      "title": "MDM Account Takeover",
+      "description": "An adversary takes control of your MDM service account. Your MDM support team cannot be reached for account recovery."
+  },
+  {
+      "id": 221,
+      "title": "Manager Credential Share",
+      "description": "One of your managers is super excited to onboard their new engineer. They've emailed their own slack credentials to them so they can meet the team before their join date."
+  },
+  {
+      "id": 222,
+      "title": "Linux Distro Backdoor",
+      "description": "A popular linux distro used in virtualized lab environments was compromised. Images downloaded from last week onward escape the guest env with a blue pill \"exploit."
+  },
+  {
+      "id": 223,
+      "title": "Pokemon Go Lobby",
+      "description": "Your lobby is now a Pokemon Go Gym."
+  },
+  {
+      "id": 224,
+      "title": "ITAR Repository Clone",
+      "description": "An overseas contractor has managed to clone a private repository containing firmware for a ITAR regulated project."
+  },
+  {
+      "id": 225,
+      "title": "DDoS Amplification",
+      "description": "A popular server that shouldn't be accessible to the web, but usually is, is found to be useful in DDoS and breaks some kind of record and brings you offline."
+  },
+  {
+      "id": 226,
+      "title": "Order Dashboard Tampering",
+      "description": "An adversary has gained access to your customer orders & shipping dashboard with admin privileges and is modifying data."
+  },
+  {
+      "id": 227,
+      "title": "Analytics Script Hijack",
+      "description": "The domain of a popular web analytics company has been hijacked, and is now serving an exploit framework to victims."
+  },
+  {
+      "id": 228,
+      "title": "TeamViewer SharePoint",
+      "description": "A consultant has had their TeamViewer account hacked and attackers have console access to your Sharepoint server."
+  },
+  {
+      "id": 229,
+      "title": "Domain Admin Ransomware",
+      "description": "Ransomware has obtained Domain Admin on your network."
+  },
+  {
+      "id": 230,
+      "title": "URL Password Crash",
+      "description": "Bug: App server crashes if a user's password is a resolvable URL."
+  },
+  {
+      "id": 231,
+      "title": "AG Breach Misfire",
+      "description": "Counsel has just emailed a state AG with a breach notification after misunderstanding a red team excercise."
+  },
+  {
+      "id": 232,
+      "title": "CPU Architecture Exploit",
+      "description": "Reality is far more outlandish than recent fictional scenarios. All modern CPU architectures are exploitable \"-> Yeah sure OK captain tabletop\""
+  },
+  {
+      "id": 233,
+      "title": "Y2K18 Bug",
+      "description": "Y2K18 bug has begun knocking down prod hosts randomly. Happy New Year"
+  },
+  {
+      "id": 234,
+      "title": "IRS Tax Fraud",
+      "description": "Employees are experiencing significant IRS fraud dring tax season. Someone speculates that you've leaked W-2 data but you have no proof."
+  },
+  {
+      "id": 235,
+      "title": "Holiday Device Loss",
+      "description": "Employees are coming back online from holiday in large numbers. Large percentage have missing devices with wide variety of loss causes."
+  },
+  {
+      "id": 236,
+      "title": "Firewall VLAN Attack",
+      "description": "Your firewall appliance has been exploited. VLANs have been reconfigured to an attacker's advantage."
+  },
+  {
+      "id": 237,
+      "title": "Bank Phishing Delivery",
+      "description": "You've received a phishing email targeting the bank you use. Upon SMTP header inspection, it was delivered by your bank's ASN."
+  },
+  {
+      "id": 238,
+      "title": "Mobile Keyboard Spy",
+      "description": "The secondary keyboard installed on your mobile device has been sending keystrokes home."
+  },
+  {
+      "id": 239,
+      "title": "Breach Forecast",
+      "description": "A panel of forecasters with low Brier scores have predicted a breach at your company within the next three months."
+  },
+  {
+      "id": 240,
+      "title": "Cloud Provider Impersonation",
+      "description": "Someone is impersonating you to customer support at your cloud compute provider."
+  },
+  {
+      "id": 241,
+      "title": "ISP Premium Throttle",
+      "description": "You've seen a 65% drop off in new customer growth after ISP's have transitioned your website into a premium service category."
+  },
+  {
+      "id": 242,
+      "title": "Click Spam Privilege",
+      "description": "An adversary can escalate privilege on the endpoint they've compromised by clicking login \"a bunch of times real fast\"."
+  },
+  {
+      "id": 243,
+      "title": "Black Friday Chargebacks",
+      "description": "Twice the amount of expected charge backs from customers have already occurred from Black Friday purchases."
+  },
+  {
+      "id": 244,
+      "title": "HR Mechanical Turk",
+      "description": "An employee has uploaded a sensitive HR file to an app by mistake. Mechanical Turk will process that file."
+  },
+  {
+      "id": 245,
+      "title": "Black Friday DDoS Ransom",
+      "description": "You've received a black Friday DDoS threat accompanied by a ransom offer. It includes semi-private information about your infrastructure."
+  },
+  {
+      "id": 246,
+      "title": "No One On Call",
+      "description": "A team miscommunication has left you with no one on-call today."
+  },
+  {
+      "id": 247,
+      "title": "APT Tool Reuse",
+      "description": "Your adversary is thankful for the attack tools left behind by the intruders into your domain controller that came before us."
+  },
+  {
+      "id": 248,
+      "title": "Year-Long macOS Persistence",
+      "description": "Your APT operator mentions to a coworker how thankful they are to have a nice home in this osx laptop's launchd config for a *whole year*!"
+  },
+  {
+      "id": 249,
+      "title": "Ansible Key Compromise",
+      "description": "Today your adversary feels blessed to have privileged ansible SSH keys for every host in production."
+  },
+  {
+      "id": 250,
+      "title": "API Key Wiki Leak",
+      "description": "Today your adversary is thankful for all the platform secrets that return in a search for api key on your developer wiki and git repo."
+  },
+  {
+      "id": 251,
+      "title": "Threat Intel Extortion",
+      "description": "A threat intel company has offered info on a threat actor targeting you, but only if you subscribe to their service."
+  },
+  {
+      "id": 252,
+      "title": "Jenkins Backdoor",
+      "description": "An adversary has access to your jenkins server. They'll spend the next 30 minutes backdooring your build pipeline."
+  },
+  {
+      "id": 253,
+      "title": "Deep Link Ad Hijack",
+      "description": "Secret key leak at your mobile deep link partner. Your mobile banner ads are now installing a spammer's app."
+  },
+  {
+      "id": 254,
+      "title": "HIPAA Discovery",
+      "description": "You've discovered that your product has been really useful for processing health care data by HIPAA regulated customers."
+  },
+  {
+      "id": 255,
+      "title": "Legacy Breaking Patch",
+      "description": "To patch a critical vulnerability, you must break legacy customer integrations that are 6 months old or greater."
+  },
+  {
+      "id": 256,
+      "title": "Gaming Malware Patch",
+      "description": "Gaming company unknowingly delivered malware dropper in highly anticipated patch last week. Employees play on work machines."
+  },
+  {
+      "id": 257,
+      "title": "DKIM DNS Attack",
+      "description": "Your DNS was modified to respond with an attacker's DKIM key. Spearphishes will be signed by your domain in 30 minutes."
+  },
+  {
+      "id": 258,
+      "title": "Ethereum Destruction",
+      "description": "Engineer at your company toyed with ethereum contract code and destroyed hundreds of millions of dollars from their desk."
+  },
+  {
+      "id": 259,
+      "title": "Code Signing Corruption",
+      "description": "The certificates involved with your primary code signing process have been corrupted or destroyed."
+  },
+  {
+      "id": 260,
+      "title": "Soylent Incident Timing",
+      "description": "A coworker has brought in a case of soylent bars that will be recalled for gastrointestinal side effects. During an incident."
+  },
+  {
+      "id": 261,
+      "title": "ISP Outage",
+      "description": "Outage at your ISP."
+  },
+  {
+      "id": 262,
+      "title": "USB Drive Blog",
+      "description": "A tech blog has written about the contents of your employee's USB storage drive they left at a coffee shop. They name the employee."
+  },
+  {
+      "id": 263,
+      "title": "Private Put-Down File",
+      "description": "Employee maintains a private text file containing hilariously inappropriate put-downs directed at co-workers. Helpdesk leaks to those named."
+  },
+  {
+      "id": 264,
+      "title": "Firewall Cable Missing",
+      "description": "Office network firewall outage. Won't fail over to backup. Cable to connect to the firewall is not in your office."
+  },
+  {
+      "id": 265,
+      "title": "Phone Emergency Mode",
+      "description": "Complaints from employees: Why is my phone is in emergency mode? Corporate wireless carrier ported all #'s to adversary."
+  },
+  {
+      "id": 266,
+      "title": "GSuite Admin Lockout",
+      "description": "Your IT admin didn't didn't agree with their termination, so they've locked everyone out of GSuite."
+  },
+  {
+      "id": 267,
+      "title": "NAS Vulnerability",
+      "description": "An adversary on your network has exploited a vulnerability in your NAS."
+  },
+  {
+      "id": 268,
+      "title": "Network Scanner 0day",
+      "description": "0day in network vuln scanner. RCE w/ malicious banner messages. Scanning host is owned. Any pw based login is keylogged."
+  },
+  {
+      "id": 269,
+      "title": "Competitor User Agent",
+      "description": "Proxy IP's have begun scraping your product, using a unique User Agent. First observed instance of UA comes from ASN owned by competitor."
+  },
+  {
+      "id": 270,
+      "title": "Customer MFA Disable",
+      "description": "Your largest customer's point of contact has just emailed customer support, asking for you to disable multifactor to their account."
+  },
+  {
+      "id": 271,
+      "title": "Secret Product Launch",
+      "description": "A small group of engineers at the direction of the CEO, has just surprised the company (and you) by launching a new, secretly built product."
+  },
+  {
+      "id": 272,
+      "title": "Chrome Extension Sale",
+      "description": "A popular chrome extension was sold to another developer last month. This month, it was sold again to a malicious developer."
+  },
+  {
+      "id": 273,
+      "title": "Rogue Access Point",
+      "description": "A rogue access point has cloned your wireless network on a new channel, and deauthentication frames are attracting victims."
+  },
+  {
+      "id": 274,
+      "title": "Firewall Rule Error",
+      "description": "An employee has left a firewall rule wide open after several hours of troubleshooting a network issue."
+  },
+  {
+      "id": 275,
+      "title": "Wireless Traffic Collection",
+      "description": "Newly released exploit allows for passive collection of non TLS traffic from most properly configured wireless networks."
+  },
+  {
+      "id": 276,
+      "title": "Git Bomb CI Outage",
+      "description": "Your hosted CI is down. Another user on the platform triggered a build with a git bomb\"."
+  },
+  {
+      "id": 277,
+      "title": "MSSP SOC Breach",
+      "description": "An analyst at your MSSP' SOC was breached."
+  },
+  {
+      "id": 278,
+      "title": "Application Firewall Alert",
+      "description": "A third party application firewall has just broadcast a vulnerability advisory. Companies observing in the wild exploitation of vuln."
+  },
+  {
+      "id": 279,
+      "title": "Legal Discovery Breach",
+      "description": "Your electronic discovery preservations held by your lawyers are being trawled remotely."
+  },
+  {
+      "id": 280,
+      "title": "Office Piggybacking",
+      "description": "A disgruntled user has just piggybacked into your office."
+  },
+  {
+      "id": 281,
+      "title": "Salary Data Recruiting",
+      "description": "Bold recruiters are contacting your employees with knowledge of their recent salary data, offering aggressive compensation."
+  },
+  {
+      "id": 282,
+      "title": "HSM Physical Breach",
+      "description": "A rack containing a production HSM has been forced open."
+  },
+  {
+      "id": 283,
+      "title": "Macro Email Forward",
+      "description": "A user downloaded a malicious Word macro, couldn't open it with their personal computer, so they've sent it to their corporate email."
+  },
+  {
+      "id": 284,
+      "title": "Brand Misinformation Bots",
+      "description": "A large fleet of bot accounts are immediately spreading misinformation about your brand every time comms posts to a social network."
+  },
+  {
+      "id": 285,
+      "title": "Throwaway Password Reuse",
+      "description": "An employee's trust me that's a throwaway password I use only for stuff I don't care about \"is used for everything."
+  },
+  {
+      "id": 286,
+      "title": "Blind XSS Government",
+      "description": "A blind XSS payload you generated for a client pentest has just detonated on a .gov intranet site run by law enforcement."
+  },
+  {
+      "id": 287,
+      "title": "Candidate Feedback Leak",
+      "description": "Recruiting has mailed candidate feedback to a candidate."
+  },
+  {
+      "id": 288,
+      "title": "Mobile Firmware AP",
+      "description": "Rogue AP's are found exploiting firmware in use by most mobile devices. Attackers are wardriving around sensitive targets."
+  },
+  {
+      "id": 289,
+      "title": "Bastion Log Deletion",
+      "description": "An adversary is now deleting logs on your bastion host, and looking for any configuration that forwards logs elsewhere."
+  },
+  {
+      "id": 290,
+      "title": "Tor Exit Node",
+      "description": "Someone just stood up Tor on an authenticated network of yours, with a permissive ExitPolicy."
+  },
+  {
+      "id": 291,
+      "title": "2016 Financial Leak",
+      "description": "All of your 2016 financials have leaked. Accounting firm point of contact has webmail accessed by adversary, exposing PDF summary report."
+  },
+  {
+      "id": 292,
+      "title": "Hacktivism Defacement",
+      "description": "Acts of hacktivism in response to loss of notable infosec community member. Marketing sites defaced with trevorforget.png via CMS admin."
+  },
+  {
+      "id": 293,
+      "title": "WiFi Deauth Attack",
+      "description": "A host near your corporate wifi has begun spamming deauthentication frames to your AP. It won't stop until mitigated. #derbycon"
+  },
+  {
+      "id": 294,
+      "title": "PowerShell Lateral Movement",
+      "description": "Adversary has just begun using powershell for lateral movement. Also, your windows event forwarding pipeline has just fallen over. #derbycon"
+  },
+  {
+      "id": 295,
+      "title": "Recruiter Spearphishing",
+      "description": "Aggressive spearphishing campaign has begun delivering exploit attachments to your recruiters on job sites. They're fake resumes. #derbycon"
+  },
+  {
+      "id": 296,
+      "title": "WSUS Beacon",
+      "description": "Your WSUS servers are beaconing directly to a hardwired IP owned by an adversary. #derbycon"
+  },
+  {
+      "id": 297,
+      "title": "Cloud Clipboard Key Leak",
+      "description": "An engineer has unknowingly exposed key material to an app that adds cloud-ification features to their copy paste buffer."
+  },
+  {
+      "id": 298,
+      "title": "Email Confirmation Crawl",
+      "description": "An attacker has tricked an internal system of yours into auto-crawling email confirmation links sent to your domain."
+  },
+  {
+      "id": 299,
+      "title": "Phone Number Porting",
+      "description": "Customer service at a cell phone company was just tricked into porting your general counsel's phone number. #derbycon"
+  },
+  {
+      "id": 300,
+      "title": "Fake Verified Account",
+      "description": "A fake account has successfully obtained a verified \"icon of your employee on a social network."
+  },
+  {
+      "id": 301,
+      "title": "Customer Security Presentation",
+      "description": "Your customer's security team is revealing vulnerabilities in your product while presenting at #derbycon"
+  },
+  {
+      "id": 302,
+      "title": "Root Cert Attack Tools",
+      "description": "Blogger discovers major OS vendor's root certs have signed attack tools to bypass application whitelisting. #derbycon"
+  },
+  {
+      "id": 303,
+      "title": "Description",
+      "description": "Scenario"
+  },
+  {
+      "id": 304,
+      "title": "Power Grid Failure",
+      "description": "Your country's entire power grid is out."
+  },
+  {
+      "id": 305,
+      "title": "Anti-Malware Malware",
+      "description": "Your anti-malware solution you've installed has been publicly accused of installing the things it was supposed to remove."
+  },
+  {
+      "id": 306,
+      "title": "Typojacked Link",
+      "description": "Your communications team has linked to a typojacked domain in a mass customer email. First point of contact to remediate is unresponsive."
+  },
+  {
+      "id": 307,
+      "title": "Document Scanner Upload",
+      "description": "An app used to scan documents with your phone's camera has been uploading everything to its operator. Passive DNS indicates employee usage."
+  },
+  {
+      "id": 308,
+      "title": "Terminal STDOUT Forward",
+      "description": "An engineer's terminal configuration is forwarding STDOUT / STDIN across the Internet, unintentionally."
+  },
+  {
+      "id": 309,
+      "title": "Struts Internet Exposure",
+      "description": "A network change has just occurred, exposing your internal instance of struts to the internet."
+  },
+  {
+      "id": 310,
+      "title": "Docker Hub Credentials",
+      "description": "You discover that someone's Docker Hub credentials on your team have been exposed."
+  },
+  {
+      "id": 311,
+      "title": "Monday Malware Update",
+      "description": "Malicious code will be distributed to your endpoints during the routine update of a signed application. Happy Monday."
+  },
+  {
+      "id": 312,
+      "title": "BTC Exchange Accusation",
+      "description": "An employee has loudly accused your email administrator of theft, via resetting their BTC exchange password from their corporate email."
+  },
+  {
+      "id": 313,
+      "title": "Fraud Data DDoS",
+      "description": "The external data sources you ingest to combat fraud on your platform are being DDoS'd."
+  },
+  {
+      "id": 314,
+      "title": "Bluetooth Security Advice",
+      "description": "A morning radio host just told their audience to enable the bluetooth on their work phones for better security."
+  },
+  {
+      "id": 315,
+      "title": "SSO Domain Hijack",
+      "description": "The domain name your internal SSO is dependent on has been hijacked."
+  },
+  {
+      "id": 316,
+      "title": "Password Reset Solve Rate",
+      "description": "A Forgot Password \"security question in your app suddenly has a solve rate. (IE: \"What's your Drivers License Number?\") Enjoy your wknd."
+  },
+  {
+      "id": 317,
+      "title": "Message Content Warrant",
+      "description": "You've received a search warrant for your customer's message content. This customer happens to be legal counsel in a highly public case."
+  },
+  {
+      "id": 318,
+      "title": "VPN Authentication Breach",
+      "description": "An adversary has successfully authenticated as an employee on your VPN."
+  },
+  {
+      "id": 319,
+      "title": "IP Theft Attempt",
+      "description": "An employee walks in on a brazen attempt to steal intellectual property from a secured location, after hours. Dual Canadian/Chinese Citizen Arrested for Attempting to Steal Trade"
+  },
+  {
+      "id": 320,
+      "title": "Senior Helpdesk Compromise",
+      "description": "A remote adversary has begun interactive behavior on your most senior helpdesk employee's laptop."
+  },
+  {
+      "id": 321,
+      "title": "SCM IDOR Exploit",
+      "description": "Exploitable IDOR against your hosted SCM reveals privately hosted source code. Enjoy the weekend."
+  },
+  {
+      "id": 322,
+      "title": "OCR Library Exploit",
+      "description": "Research reveals a popular OCR library can be exploited via malicious image file. The attack is named KLEPTCHA and the logo is also the PoC."
+  },
+  {
+      "id": 323,
+      "title": "Affiliate Ad Malware",
+      "description": "An affiliate ad network is hosting a malware campaign that spoofs your brand."
+  },
+  {
+      "id": 324,
+      "title": "Chrome Extension Sync",
+      "description": "A malicious Chrome store extension has synced from a employee's personal computer to their work laptop via their Google account."
+  },
+  {
+      "id": 325,
+      "title": "Hurricane Datacenter",
+      "description": "A hurricane engulfed a datacenter you depend on."
+  },
+  {
+      "id": 326,
+      "title": "Gaming UDP DDoS",
+      "description": "A user on your network is playing an online game, leaking the IP of your network. Their competitor DoS's with UDP amplification."
+  },
+  {
+      "id": 327,
+      "title": "Document Signing S3",
+      "description": "An online document signing service has exposed an S3 bucket full of executed contracts."
+  },
+  {
+      "id": 328,
+      "title": "Domain Admin Attachment",
+      "description": "A domain admin has run a malicious attachment after loudly proclaiming how dumb their users are for doing the same."
+  },
+  {
+      "id": 329,
+      "title": "DevOps IAM Confusion",
+      "description": "A senior DevOps eng confused `NotAllow` with `Deny` in crafting an IAM policy. It was written in an inline policy, but can't remember where."
+  },
+  {
+      "id": 330,
+      "title": "Eclipse Blackouts",
+      "description": "The solar eclipse has triggered rolling blackouts in your regional office to compensate for the shortage of solar energy."
+  },
+  {
+      "id": 331,
+      "title": "Solar Flare DNS",
+      "description": "The eclipse has magnified a solar flare, drastically increasing the success rate of bit flip \"attacks against DNS."
+  },
+  {
+      "id": 332,
+      "title": "CEO Credential History",
+      "description": "All infrastructure still accessible by your CEO has been compromised via exposed credentials in a really old data breach."
+  },
+  {
+      "id": 333,
+      "title": "Equity Management Bug",
+      "description": "The tool employees use to manage their equity has a bug that exports *all* employee grants into a .csv instead of their own."
+  },
+  {
+      "id": 334,
+      "title": "Terminated Employee Chat",
+      "description": "A terminated employee was not removed from your corporate chat."
+  },
+  {
+      "id": 335,
+      "title": "TLD Registry Outage",
+      "description": "A compromised domain registrar has exploited a registry's fragile EPP implementation, causing a global outage of a TLD (.com, .net, etc)."
+  },
+  {
+      "id": 336,
+      "title": "Git LFS Exploit",
+      "description": "Rogue commit in your internal repository, attempting to exploit the Git LFS vuln."
+  },
+  {
+      "id": 337,
+      "title": "HVAC System Twitter",
+      "description": "A twitter account has linked directly to your HVAC system's management interface."
+  },
+  {
+      "id": 338,
+      "title": "FISA Warrant Campaign",
+      "description": "An exploit campaign targeting paralegals has begun, with the intent of discovering FISA warrants being processed by tech companies."
+  },
+  {
+      "id": 339,
+      "title": "Session Token Prediction",
+      "description": "Good morning. An attacker has discovered a way to predict session tokens that are being handed out by your application."
+  },
+  {
+      "id": 340,
+      "title": "Endpoint Security Leak",
+      "description": "The endpoint security product installed on your employee laptops sends your dev's source code + api keys to an antimalware community."
+  },
+  {
+      "id": 341,
+      "title": "Fake Encryption Bug",
+      "description": "A bug in your choice of laptop has caused full disk encryption to appear enabled \"when in fact, it is not."
+  },
+  {
+      "id": 342,
+      "title": "Communications Ragequit",
+      "description": "Communications team employee has just ragequit. After hinting at capability to leak damaging material, they no longer respond to calls."
+  },
+  {
+      "id": 343,
+      "title": "Database Structure Extortion",
+      "description": "You've received an extortion email. They claim to have a sample of your database, which they have shared, but only contains table structure."
+  },
+  {
+      "id": 344,
+      "title": "Researcher Accusation",
+      "description": "A security researcher you employ is accused of being the thing they research"
+  },
+  {
+      "id": 345,
+      "title": "Fake Account DDoS",
+      "description": "Resource intensive areas of your application are being DDoS'd by a thousands of fake accounts to avoid rate limits."
+  },
+  {
+      "id": 346,
+      "title": "Rowhammer Electron",
+      "description": "Efficient rowhammer exploit has just been discovered in the wild. The exploit is propagating via XSS in a popular Electron app."
+  },
+  {
+      "id": 347,
+      "title": "Watering Hole Engineers",
+      "description": "Exploit code has been discovered targeting Release Engineers on a site your employees frequently visit, likely a watering hole."
+  },
+  {
+      "id": 348,
+      "title": "Visitor Log Torrent",
+      "description": "Your reception software has leaked all of your visitor logs. They are available via torrent."
+  },
+  {
+      "id": 349,
+      "title": "Lockpicking HR Cabinet",
+      "description": "Employee who learned how to lockpick at Defcon has unlocked HR file cabinet full of termination records. Happy Monday."
+  },
+  {
+      "id": 350,
+      "title": "Bitcoin Bankruptcy Theft",
+      "description": "Engineer w/ root is bankrupt after bitcoin related breach. Fully motivated to steal from the company, they have begun brainstorming how."
+  },
+  {
+      "id": 351,
+      "title": "Log Forwarding Crash",
+      "description": "Log forwarding agents have crashed. Will not come back up until the outage is detected."
+  },
+  {
+      "id": 352,
+      "title": "100% Security Claim",
+      "description": "Your product marketing team has claimed 100% security \"in recent marketing email. CEO also tweets a screenshot of the language."
+  },
+  {
+      "id": 353,
+      "title": "DEFCON Wall of Sheep",
+      "description": "Employee attending DEFCON has appeared on the wall of sheep."
+  },
+  {
+      "id": 354,
+      "title": "Fictional Tweet Response",
+      "description": "An employee on your team did not know what @badthingsdaily is and has begun performing incident response based on a fictional tweet"
+  },
+  {
+      "id": 355,
+      "title": "Cross Account AWS Breach",
+      "description": "Vendor with access to cross account AWS role in your account was breached six months ago. They learned last week via customer complaints."
+  },
+  {
+      "id": 356,
+      "title": "AV Worm Dropbox",
+      "description": "Wormable exploit in popular AntiVirus engine has begun spreading via Dropbox."
+  },
+  {
+      "id": 357,
+      "title": "Packer Build Assumption",
+      "description": "The role used by your packer build scripts can be assumed by an adversary."
+  },
+  {
+      "id": 358,
+      "title": "Burner Phone Scam",
+      "description": "Blackhat / Defcon attendees targeted by burner phone \"scam. Your employees bought a pre-rooted burner phone on casino floor."
+  },
+  {
+      "id": 359,
+      "title": "VP Eng Honeypot",
+      "description": "Your VP Eng is now mentoring \"a very curious and attractive Twitter account about your endpoint security agents and internal auth."
+  },
+  {
+      "id": 360,
+      "title": "Drunk IR Disclosure",
+      "description": "Your IR team is drunk at the Mandalay Bay bar and discussing your breach with @briankrebs anonymously \"while still wearing their badges."
+  },
+  {
+      "id": 361,
+      "title": "APT IOC Publication",
+      "description": "Security company has released an APT group PDF at BH USA. The list of IOC's includes a host in your ASN."
+  },
+  {
+      "id": 362,
+      "title": "BlackHat VPN Bridge",
+      "description": "Employee bridges corporate VPN connection to accessible WiFi AP in Mandalay Bay during BlackHat since the hotel internet is out."
+  },
+  {
+      "id": 363,
+      "title": "BlackHat MDM Attack",
+      "description": "State actor compromised cloud based MDM company and bricked phones in proximity of Blackhat. Dormant breach at HQ begins lateral movement."
+  },
+  {
+      "id": 364,
+      "title": "ASN Threat Intel",
+      "description": "A major threat intel company has begun publishing ranges of hosts within your ASN."
+  },
+  {
+      "id": 365,
+      "title": "Rogue DHCP Server",
+      "description": "There's a rogue DHCP server periodically appearing in your office network."
+  },
+  {
+      "id": 366,
+      "title": "CSP Browser Plugin",
+      "description": "After enabling CSP, you see 3rd party js embedded on your internal admin tools due to malicious browser plugins."
+  },
+  {
+      "id": 367,
+      "title": "Executive Travel Forward",
+      "description": "You discover email rules that forward sensitive travel itineraries for senior executives externally."
+  },
+  {
+      "id": 368,
+      "title": "IT Domain Admin",
+      "description": "Your new IT engineer's everyday account is a domain administrator. You are notified weeks later."
+  },
+  {
+      "id": 369,
+      "title": "Subscription Database Hack",
+      "description": "Your subscription database is hacked. Thousands of new accounts are added and hard to distinguish from old."
+  },
+  {
+      "id": 370,
+      "title": "Old Password Hash Paste",
+      "description": "New pastebin is found with password hashes and emails from your customer DB from 3 years ago. More recent hashes are missing."
+  },
+  {
+      "id": 371,
+      "title": "$100M Bank Theft",
+      "description": "Your CFO emails you and legal reporting $100 million missing from the corporate bank account."
+  },
+  {
+      "id": 372,
+      "title": "NGFW Webshell Alert",
+      "description": "Recent NGFW installation alerts you to a webshell in your DMZ."
+  },
+  {
+      "id": 373,
+      "title": "VPN Service Account",
+      "description": "VPN log review reveals a service account routinely connecting from the same source IP as a C-level exec."
+  },
+  {
+      "id": 374,
+      "title": "PCAP Upload Leak",
+      "description": "While troubleshooting, a network eng uploaded a PCAP of unencrypted traffic from your internal HR site to an online converter"
+  },
+  {
+      "id": 375,
+      "title": "C-Suite Phishing Worm",
+      "description": "Your C-suite just got phished. The malware wormed through their addressbooks, spamming everybody with malware."
+  },
+  {
+      "id": 376,
+      "title": "Employee Report Receipt",
+      "description": "An employee at your company just received this report."
+  },
+  {
+      "id": 377,
+      "title": "Tavis Calc Pop",
+      "description": "Replying to @alexxinozgz Exploit working, calc popped and reports on the way."
+  },
+  {
+      "id": 378,
+      "title": "Nmap VPN Crash",
+      "description": "A simple nmap scan has brought down all VPN links between your offices and datacenters."
+  },
+  {
+      "id": 379,
+      "title": "CA Browser Revocation",
+      "description": "Your primary certificate authority has been revoked by browsers after a data breach."
+  },
+  {
+      "id": 380,
+      "title": "Event Photo Leaks",
+      "description": "Photos from your company wide events keep appearing in tech blogs."
+  },
+  {
+      "id": 381,
+      "title": "German Datacenter Login",
+      "description": "The last login on your Google Apps account was from a datacenter in Germany."
+  },
+  {
+      "id": 382,
+      "title": "Mystery Span Port",
+      "description": "There's a span port enabled on your core routing gear that no one remembers enabling."
+  },
+  {
+      "id": 383,
+      "title": "Spoofed Caller ID",
+      "description": "Employees are reporting spoofed caller ID's calling the company's main phone number and asking for sensitive information."
+  },
+  {
+      "id": 384,
+      "title": "Changeme Password Reset",
+      "description": "Large password breach. IT helpdesk panics and resets employee passwords to changeme\"."
+  },
+  {
+      "id": 385,
+      "title": "Company-Wide Phish Forward",
+      "description": "An employee received and forwarded a well crafted phishing email to whole company. Employee: lmk plz is this ok 2 click?\""
+  },
+  {
+      "id": 386,
+      "title": "Master Key Loss",
+      "description": "Security guard lost \"master key to your office."
+  },
+  {
+      "id": 387,
+      "title": "Bitcoin Mining Compliance",
+      "description": "Infrastructure engineer has been using spare cycles to mine bitcoin nearby a cluster with compliance / regulatory requirements."
+  },
+  {
+      "id": 388,
+      "title": "DMZ to MZ Breach",
+      "description": "Turns out your DMZ is just a MZ. Attackers move into production after successful RCE on public server using credentials found on DMZ host."
+  },
+  {
+      "id": 389,
+      "title": "Office Junkie Discovery",
+      "description": "Junkie found passed out in the office toilet in the morning. No sign of break-in."
+  },
+  {
+      "id": 390,
+      "title": "Patient Prescription Leak",
+      "description": "Massive patient record leak. Columns are full name, email, and prescription. Numerous records have your corporate email domain (employees)."
+  },
+  {
+      "id": 391,
+      "title": "Fake Company S3 Bucket",
+      "description": "An S3 bucket bearing your company's name is publicly sharing internal procedural docs. It's not your account."
+  },
+  {
+      "id": 392,
+      "title": "Contract Folder Public",
+      "description": "A legal assistant put your entire history of executed contracts into a publicly accessible shared folder."
+  },
+  {
+      "id": 393,
+      "title": "Health Check Persistence",
+      "description": "You've discovered attack persistence embedded within infrastructure health check scripts. Have a great week!"
+  },
+  {
+      "id": 394,
+      "title": "Project Codename Leak",
+      "description": "Internal list of project codenames has leaked to a journalist. Will be portrayed as far out of context as possible. Happy Friday."
+  },
+  {
+      "id": 395,
+      "title": "Industry Exam Failures",
+      "description": "A database breach has exposed a list of first / last names and emails from those who have failed a popular industry exam."
+  },
+  {
+      "id": 396,
+      "title": "Business Intel Pretexting",
+      "description": "You learn of a business intel firm recruited by competitors. They will be pretexting your employees over the phone to learn org chart today."
+  },
+  {
+      "id": 397,
+      "title": "Map Data Poisoning",
+      "description": "Someone is poisoning map data and search results with a MITM'd phone number of your business and employees."
+  },
+  {
+      "id": 398,
+      "title": "Anycast Implementation Bug",
+      "description": "An implementation oversight in anycast addressing has been globally exploited. Only root name server H \"survives. Happy weekend."
+  },
+  {
+      "id": 399,
+      "title": "Employee Leak Protest",
+      "description": "Former employees have publicly called upon current employees to leak information in protest of a recent policy your company has adopted."
+  },
+  {
+      "id": 400,
+      "title": "Competitor Vulnerability Blog",
+      "description": "A firewall corp is blogging about vulns in a product similar to yours. Customers are asking if you're affected as well."
+  },
+  {
+      "id": 401,
+      "title": "Spamhaus IP Blacklist",
+      "description": "Spamhaus has begun blacklisting IP addresses you deliver email with, citing abuse. They will not share troubleshooting data to diagnose."
+  },
+  {
+      "id": 402,
+      "title": "Chat Tool Credential Leak",
+      "description": "Your company uses a popular group chat tool. An employee's credentials leak and a rogue login grabs messages from every channel over time."
+  },
+  {
+      "id": 403,
+      "title": "API Key Generation Flaw",
+      "description": "Your method of generating API secret keys has not been random due to unseen issue. Last six months of customer key creation must be rotated."
+  },
+  {
+      "id": 404,
+      "title": "Datacenter Impersonation",
+      "description": "Your datacenter: Someone impersonated your staff and entered your cage last week. We've reported to law enforcement, can't share more.\""
+  },
+  {
+      "id": 405,
+      "title": "Executive Stalker Harassment",
+      "description": "An idolized executive is being repeatedly harassed by an online stalker. Other execs are now concerned for themselves and asking for info."
+  },
+  {
+      "id": 406,
+      "title": "Description",
+      "description": "Scenario"
+  },
+  {
+      "id": 407,
+      "title": "DMZ Configuration Failure",
+      "description": "Turns out your DMZ is just a MZ. Attackers move into production after successful RCE on public server using credentials found on DMZ host."
+  },
+  {
+      "id": 408,
+      "title": "Office Intruder Discovery",
+      "description": "Junkie found passed out in the office toilet in the morning. No sign of break-in."
+  },
+  {
+      "id": 409,
+      "title": "Medical Record Exposure",
+      "description": "Massive patient record leak. Columns are full name, email, and prescription. Numerous records have your corporate email domain (employees)."
+  },
+  {
+      "id": 410,
+      "title": "Fake S3 Bucket",
+      "description": "An S3 bucket bearing your company's name is publicly sharing internal procedural docs. It's not your account."
+  },
+  {
+      "id": 411,
+      "title": "Contract Folder Exposure",
+      "description": "A legal assistant put your entire history of executed contracts into a publicly accessible shared folder."
+  },
+  {
+      "id": 412,
+      "title": "Health Check Backdoor",
+      "description": "You've discovered attack persistence embedded within infrastructure health check scripts. (IE: https://consul.io/docs/agent/checks.html) Have a great week!"
+  },
+  {
+      "id": 413,
+      "title": "Codename Leak",
+      "description": "Internal list of project codenames has leaked to a journalist. Will be portrayed as far out of context as possible. Happy Friday."
+  },
+  {
+      "id": 414,
+      "title": "Exam Failure Database",
+      "description": "A database breach has exposed a list of first / last names and emails from those who have failed a popular industry exam."
+  },
+  {
+      "id": 415,
+      "title": "Business Intelligence Pretexting",
+      "description": "You learn of a business intel firm recruited by competitors. They will be pretexting your employees over the phone to learn org chart today."
+  },
+  {
+      "id": 416,
+      "title": "Map Data Poisoning",
+      "description": "Someone is poisoning map data and search results with a MITM'd phone number of your business and employees."
+  },
+  {
+      "id": 417,
+      "title": "Anycast Exploitation",
+      "description": "An implementation oversight in anycast addressing has been globally exploited. Only root name server H \"survives. Happy weekend."
+  },
+  {
+      "id": 418,
+      "title": "Employee Leak Campaign",
+      "description": "Former employees have publicly called upon current employees to leak information in protest of a recent policy your company has adopted."
+  },
+  {
+      "id": 419,
+      "title": "Similar Product Vulnerability",
+      "description": "A firewall corp is blogging about vulns in a product similar to yours. Customers are asking if you're affected as well."
+  },
+  {
+      "id": 420,
+      "title": "Email Blacklisting",
+      "description": "Spamhaus has begun blacklisting IP addresses you deliver email with, citing abuse. They will not share troubleshooting data to diagnose."
+  },
+  {
+      "id": 421,
+      "title": "Chat Tool Credential Theft",
+      "description": "Your company uses a popular group chat tool. An employee's credentials leak and a rogue login grabs messages from every channel over time."
+  },
+  {
+      "id": 422,
+      "title": "API Key Generation Flaw",
+      "description": "Your method of generating API secret keys has not been random due to unseen issue. Last six months of customer key creation must be rotated."
+  },
+  {
+      "id": 423,
+      "title": "Datacenter Impersonation",
+      "description": "Your datacenter: Someone impersonated your staff and entered your cage last week. We've reported to law enforcement, can't share more.\""
+  },
+  {
+      "id": 424,
+      "title": "Executive Stalker",
+      "description": "An idolized executive is being repeatedly harassed by an online stalker. Other execs are now concerned for themselves and asking for info."
+  },
+  {
+      "id": 425,
+      "title": "Wiper Malware Attack",
+      "description": "Wiper malware has sent several employees to helpdesk with unusable disks. Delivery method of malware unknown."
+  },
+  {
+      "id": 426,
+      "title": "Viral Jailbreak App",
+      "description": "A popular app gone viral is convincing employees to jailbreak their phones."
+  },
+  {
+      "id": 427,
+      "title": "Privacy Email Trend",
+      "description": "An employee will only give HR a mailinator address, stating privacy reasons\". Upon review, other employees have too."
+  },
+  {
+      "id": 428,
+      "title": "Legal Opinion on Breach",
+      "description": "You have suffered an intrusion with customer data access. Legal opinion is that breach notification/blog post isn't required."
+  },
+  {
+      "id": 429,
+      "title": "Browser Vulnerability Discovery",
+      "description": "An employee of yours has discovered a severe vulnerability in a mainstream browser and wants to disclose it widely."
+  },
+  {
+      "id": 430,
+      "title": "Public Dropbox Sharing",
+      "description": "A group of employees have been sharing sensitive files in a public Dropbox folder."
+  },
+  {
+      "id": 431,
+      "title": "Forged Search Warrant",
+      "description": "A legal intern in the company has responded to a forged search warrant and delivered user data to an unknown party."
+  },
+  {
+      "id": 432,
+      "title": "Law Enforcement Query",
+      "description": "Law Enforcement has emailed someone in your company. They are asking how to serve a search warrant for a specific user's data."
+  },
+  {
+      "id": 433,
+      "title": "Signed Malware Discovery",
+      "description": "Malware has been discovered in the wild, signed by a certificate of yours."
+  },
+  {
+      "id": 434,
+      "title": "Ransomware Without Preparation",
+      "description": "Ransomware locking up employees as they come online today. Executives: Why haven't we tabletopped this?\""
+  },
+  {
+      "id": 435,
+      "title": "Failed Endpoint Protection",
+      "description": "Ransomware made the rounds last night. Endpoint protection was useless. Growing help desk queue with data loss."
+  },
+  {
+      "id": 436,
+      "title": "Paper Shredding Failure",
+      "description": "You decide to follow the off site paper shredding company. Turns out they just visit a dumpster around the corner."
+  },
+  {
+      "id": 437,
+      "title": "Security Practice Comparison",
+      "description": "A competitor is publicly comparing their security practices to your own. Marketing and sales want to know what you need most."
+  },
+  {
+      "id": 438,
+      "title": "Registrar Account Confusion",
+      "description": "An application caching issue at your registrar has caused users to log into arbitrarily chosen accounts after authenticating."
+  },
+  {
+      "id": 439,
+      "title": "Password Dump Match",
+      "description": "12% of your user's passwords, and 28% of their email addresses are identical to a recent plaintext password dump."
+  },
+  {
+      "id": 440,
+      "title": "Candidate Email Exposure",
+      "description": "New employee on recruiting team CC's all current candidates on an email about upcoming interview. Happy Monday."
+  },
+  {
+      "id": 441,
+      "title": "ISP Route Hijacking",
+      "description": "A malicious ISP has broadcasted a prefix from your company's ASN. Traffic towards your company is now taking a very long route."
+  },
+  {
+      "id": 442,
+      "title": "Time Server Outage",
+      "description": "Significant outages across http://nist.gov time servers."
+  },
+  {
+      "id": 443,
+      "title": "Crash Report Breach",
+      "description": "A software company's database of crash reports has been breached. Core dumps, screenshots, and configurations leaked alongside usernames."
+  },
+  {
+      "id": 444,
+      "title": "Open Redirect Malware",
+      "description": "Open redirect on one of your domains is being used to point towards malware in online spam. Social media has begun blacklisting domain."
+  },
+  {
+      "id": 445,
+      "title": "SQL Injection Evidence",
+      "description": "In reviewing a database's slow query log, you've clearly found a successful SQL injection."
+  },
+  {
+      "id": 446,
+      "title": "Unmanaged Host Beacon",
+      "description": "You've detected a malware beacon from an unmanaged host. Only have it's IP and MAC address on corporate network. Physical location unknown."
+  },
+  {
+      "id": 447,
+      "title": "File Upload RCE",
+      "description": "Obscure library is involved with a file upload feature you support in production. Malicious upload loads meterpreter after exploiting RCE"
+  },
+  {
+      "id": 448,
+      "title": "External Counsel Breach",
+      "description": "External counsel's email breached."
+  },
+  {
+      "id": 449,
+      "title": "Email Security Breach",
+      "description": "Large security company that filters attacks via email has been breached. Email passing through your MX record visible to unknown adversary."
+  },
+  {
+      "id": 450,
+      "title": "Guest WiFi Bridge",
+      "description": "Engineer has bridged your open guest wifi with production network for external guests at a Hackathon. You've discovered a week later."
+  },
+  {
+      "id": 451,
+      "title": "Brazil Office Decision",
+      "description": "Your board has decided to create an engineering office in Brazil."
+  },
+  {
+      "id": 452,
+      "title": "Phishing Assessment Bug",
+      "description": "Your phishing assessment \"vendor has bug. They've actually been capturing all of those passwords."
+  },
+  {
+      "id": 453,
+      "title": "DarkHotel Travel Risk",
+      "description": "An executive plans a prolonged stay overseas. Your peers claim the hotel is known for seeing DarkHotel \"attacks. Exec can't change plans."
+  },
+  {
+      "id": 454,
+      "title": "Employee Tor Usage",
+      "description": "A few Employees in your company using Tor regularly. They've been using it for everyday browsing. Team debates risk / reward."
+  },
+  {
+      "id": 455,
+      "title": "Secret Storage Seal",
+      "description": "A /seal \"has occurred on your secret storage method, to everyone's surprise. (IE: Vault's seal, or secrets somehow made inaccessible)"
+  },
+  {
+      "id": 456,
+      "title": "Reporter Mass Messaging",
+      "description": "A reporter is mass messaging your employees on LinkedIn, asking for their opinion on your latest negative news cycle."
+  },
+  {
+      "id": 457,
+      "title": "Domain Nameserver Swap",
+      "description": "Registrar for your domain social engineered. Nameserver swapped. The A \"record now resolves to a credential phish."
+  },
+  {
+      "id": 458,
+      "title": "Early Employee Dropbox",
+      "description": "An early employee's Dropbox is compromised. It's the backend for their 1Password file. Passwords exposed, impact window several years."
+  },
+  {
+      "id": 459,
+      "title": "Curl Pipe Bash Attack",
+      "description": "Extremists attacking Curl Pipe Bash \"installation method. Tampering with README's, wiki's, and hosted shell scripts. Wiper payload."
+  },
+  {
+      "id": 460,
+      "title": "Background Check Breach",
+      "description": "Vendor performing all of your background checks has been breached. You've arranged a phone call with them in 2 hours and need to prepare."
+  },
+  {
+      "id": 461,
+      "title": "New Engineer Policy Violation",
+      "description": "New engineer has violated a serious security policy in first week. Claims they weren't trained about any rules. HR asks you about policy."
+  },
+  {
+      "id": 462,
+      "title": "Viral Tweet Crisis",
+      "description": "Employee's personal tweet has gone viral. Online protest. Multiple incidents at once. Social engineering on all public corporate phone #'s."
+  },
+  {
+      "id": 463,
+      "title": "Anti-Forensic RAM Exploit",
+      "description": "An anti-forensic Volatility exploit was inside ram acquisition of compromised host. RCE occurs within your air-gapped analysis environment."
+  },
+  {
+      "id": 464,
+      "title": "False Security Confidence",
+      "description": "A teammate says: It seems like we're finally getting things under control, yeah? \"Others agree."
+  },
+  {
+      "id": 465,
+      "title": "Cloud Traffic Interception",
+      "description": "A leak has revealed detailed specifics about interception of region-to-region traffic in a major cloud platform. Your company is noted."
+  },
+  {
+      "id": 466,
+      "title": "Sinkhole Competition Data",
+      "description": "You have sinkhole domain data used by highly functional malware. High value networks beacon to it, including your competition."
+  },
+  {
+      "id": 467,
+      "title": "Shellshock Legal Hold",
+      "description": "Incident Response performed by your team is now in litigation. Begin a legal hold on all comms and documentation related to shellshock."
+  },
+  {
+      "id": 468,
+      "title": "File Cabinet Break-In",
+      "description": "Employee file cabinet was broken into last night between 3-5am. No *direct* camera footage of the desk area available."
+  },
+  {
+      "id": 469,
+      "title": "W2 Phishing Success",
+      "description": "Your HR department fell for last Friday's phishing attack, and sent every employee's W2 in response. Happy Monday."
+  },
+  {
+      "id": 470,
+      "title": "Widespread Phishing Campaign",
+      "description": "A phishing scam is widely making the rounds with heavy media coverage. Doesn't seem targeted. Employees escalating far more than usual."
+  },
+  {
+      "id": 471,
+      "title": "Unresponsive Disclosure Claim",
+      "description": "A popular researcher fully discloses vulns in your company and claims unresponsive disclosure experience. You can prove no attempt was made."
+  },
+  {
+      "id": 472,
+      "title": "Peer Termination Warning",
+      "description": "An employee with similar access to yourself is being terminated this Friday. HR just gave you heads up."
+  },
+  {
+      "id": 473,
+      "title": "Service Provider Breach",
+      "description": "An important (?)aaS has predisclosed their breach. Their support team was social engineered and your account was modified by an adversary."
+  },
+  {
+      "id": 474,
+      "title": "Chat Bot Backdoor",
+      "description": "Popular Slack/HipChatbot open source library was backdoored. Messages siphoned to unknown party. Impact window is 6 months to today."
+  },
+  {
+      "id": 475,
+      "title": "Finance System Discrepancy",
+      "description": "Finance escalates massive discrepancies while closing books for the month. Finance cannot explain, other than a breach in their tools."
+  },
+  {
+      "id": 476,
+      "title": "Intellectual Property Theft",
+      "description": "A competitor has launched nearly identical IP and Tech to your own. High likelihood of theft. Board of dir's asks for plan to investigate."
+  },
+  {
+      "id": 477,
+      "title": "Xen Vulnerability Regression",
+      "description": "CVE-2015-7835 has regressed. In the wild \"criminal exploitation observed in adjacent, multitenant Xen guests. Major IaaS outages predicted."
+  },
+  {
+      "id": 478,
+      "title": "Acquisition Security Debt",
+      "description": "Your CEO just agreed to a mercy acquisition of a startup that disclosed a DB breach recently. Not aqui-hire, you'll integrate. Happy Monday."
+  },
+  {
+      "id": 479,
+      "title": "Executive Security Searches",
+      "description": "Log review reveals searches on your corporate wiki for security\", \"password\", \"domain admin\", \"ssh root \"from a new executive's laptop."
+  },
+  {
+      "id": 480,
+      "title": "Password Bypass Bug",
+      "description": "After a recent deploy into prod, your apps no longer respect passwords. Any password submitted by a user successfully authenticates them."
+  },
+  {
+      "id": 481,
+      "title": "Calendar App Breach",
+      "description": "Database breach at calendar management app. Join this conference \"shortlinks were at risk for any employees who were integrated this month."
+  },
+  {
+      "id": 482,
+      "title": "CEO Wire Transfer Fraud",
+      "description": "Finance escalates odd email thread for another bank transfer \"sent from CEO. SMTP headers do not indicate forgery."
+  },
+  {
+      "id": 483,
+      "title": "Communication Tool Down",
+      "description": "Your primary team communication tool is down. Meanwhile, numerous employees reporting suspicious urls via imposter journalists on LinkedIn"
+  },
+  {
+      "id": 484,
+      "title": "Rogue Code Commit",
+      "description": "Rogue commit discovered. Codebase or build pipeline tampered with. Investigation hasn't begun. Public release was scheduled for tomorrow."
+  },
+  {
+      "id": 485,
+      "title": "Legal Hold Destruction",
+      "description": "An employee has destroyed their laptop a week after they were notified of a legal hold for a civil lawsuit against your company."
+  },
+  {
+      "id": 486,
+      "title": "Typosquatted C&C",
+      "description": "Routine malware removal reveals a C&C resolving to a typo-jacked domain of your brand."
+  },
+  {
+      "id": 487,
+      "title": "Personal Email Spearphish",
+      "description": "Senior engineer receives extremely convincing spearphish on personal addresses. You have sample. On glance: Installs malicious Chrome ext."
+  },
+  {
+      "id": 488,
+      "title": "S3 Outage Backdoor",
+      "description": "During S3 Outage: Hacker embeds policy backdoor w/ create-policy-version. Indicator is a set-default-policy-version to a malicious policy."
+  },
+  {
+      "id": 489,
+      "title": "ThreatButt Waterhole",
+      "description": "The @threatbutt website has been acting as a waterhole for months, serving months old java and .swf exploits. 2% of employees have visited."
+  },
+  {
+      "id": 490,
+      "title": "Endpoint Protection RCE",
+      "description": "Remote root RCE discovered in widely used endpoint protection suite. Worm propagating globally via file share, email, and USB distribution."
+  },
+  {
+      "id": 491,
+      "title": "Integer Factorization Breakthrough",
+      "description": "The NSA confirms: A nation state has revealed efficient integer factorization capabilities in a recent classified attack."
+  },
+  {
+      "id": 492,
+      "title": "Ransomware Spread",
+      "description": "Ransomware made the rounds last night. Endpoint protection was useless. Growing help desk queue with data loss."
+  },
+  {
+      "id": 493,
+      "title": "Public Repository Fork",
+      "description": "A senior engineer has accidentally forked production infrastructure code into a public GH repository. It was public for last two weeks."
+  },
+  {
+      "id": 494,
+      "title": "Worst Case Scenario",
+      "description": "What's the worst that can happen?"
+  },
+  {
+      "id": 495,
+      "title": "AI Authentication Override",
+      "description": "An AI-powered authentication system has granted admin access to multiple unauthorized users over the past 48 hours. Logs show confidence scores were inexplicably high."
+  },
+  {
+      "id": 496,
+      "title": "LLM Prompt Injection Attack",
+      "description": "Your customer support chatbot has been sending password reset links to attackers via prompt injection. Several accounts compromised."
+  },
+  {
+      "id": 497,
+      "title": "Model Poisoning Discovery",
+      "description": "Your ML model for fraud detection has been approving suspicious transactions at 10x normal rate. Training data tampering suspected."
+  },
+  {
+      "id": 498,
+      "title": "AI Decision Audit Crisis",
+      "description": "Regulators demand immediate explanation for why your AI system denied critical services to protected class members."
+  },
+  {
+      "id": 499,
+      "title": "Deepfake Executive Video",
+      "description": "A convincing deepfake video of your CEO announcing layoffs is circulating on social media. Stock price dropping."
+  },
+  {
+      "id": 500,
+      "title": "AI Model Extraction",
+      "description": "Competitors appear to have reverse-engineered your proprietary AI model through API queries. IP theft suspected."
+  },
+  {
+      "id": 501,
+      "title": "Adversarial Input Attack",
+      "description": "Your AI-powered security scanner is bypassed by slightly modified malware. Detection rate drops to near zero."
+  },
+  {
+      "id": 502,
+      "title": "AI Training Data Breach",
+      "description": "Your AI training dataset containing millions of customer interactions has been exfiltrated. GDPR violations imminent."
+  },
+  {
+      "id": 503,
+      "title": "Automated Decision Bias",
+      "description": "Your AI hiring system has been systematically rejecting qualified candidates. Discrimination lawsuit filed."
+  },
+  {
+      "id": 504,
+      "title": "LLM Hallucination Crisis",
+      "description": "Your AI assistant gave incorrect legal advice to thousands of users, resulting in failed court cases and liability claims."
+  },
+  {
+      "id": 505,
+      "title": "AI Supply Chain Attack",
+      "description": "A popular open-source AI library your product depends on has been backdoored. Model weights replaced with malicious versions."
+  },
+  {
+      "id": 506,
+      "title": "Voice Synthesis Fraud",
+      "description": "AI-generated voice calls impersonating executives have authorized $2M in fraudulent wire transfers. CFO confirmed it wasn't them."
+  }
+]

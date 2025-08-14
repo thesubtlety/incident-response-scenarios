@@ -1,0 +1,28 @@
+NOTICE OF MIXED LICENSING
+
+This repository contains materials with different licensing terms:
+
+1. SCENARIO CONTENT
+   The security scenarios contained in src/scenarios.json are derived from 
+   public posts by Ryan McGeehan (@badthingsdaily on X/Twitter).
+   
+   These scenarios remain the intellectual property of their original author.
+   They are included here for educational and training purposes only.
+   
+   For any commercial use or redistribution of the scenario content, 
+   please contact Ryan McGeehan directly.
+
+2. APPLICATION CODE
+   The React application code (excluding the scenario content) is made 
+   available for community use on an as-is basis.
+   
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+   SOFTWARE.
+
+For questions about appropriate usage, please contact the respective parties:
+- Scenario content: Ryan McGeehan (https://www.linkedin.com/in/m4goo/)
