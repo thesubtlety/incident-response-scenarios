@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/incident-response-scenarios/static/css/main.f0bd589c.css",
+    "main.js": "/incident-response-scenarios/static/js/main.02ac043c.js",
+    "index.html": "/incident-response-scenarios/index.html",
+    "main.f0bd589c.css.map": "/incident-response-scenarios/static/css/main.f0bd589c.css.map",
+    "main.02ac043c.js.map": "/incident-response-scenarios/static/js/main.02ac043c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0bd589c.css",
+    "static/js/main.02ac043c.js"
+  ]
+}
